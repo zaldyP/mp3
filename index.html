@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bruno Mars Playlist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="audio-image">
+            <img  alt="" class="cover">
+        </div>
+        <div id="audio-player">
+            <div id="audio-info">
+                <span class="artist"></span> -  <span class="title"></span>
+            </div>
+            <input type="range" id="volume" min="0" max="10" value="4">
+            <br>
+            <div id="buttons">
+                <span>
+                    <button id="prev"></button>
+                    <button id="play"></button>
+                    <button id="pause"></button>
+                    <button id="stop"></button>
+                    <button id="next"></button>
+                </span>
+            </div>
+            <div class="clearfix"></div>
+            <div id="tracker">
+                <div id="progress-bar">
+                    <span id="progress"></span>
+                </div>
+                <span id="duration">0:00</span>
+            </div>
+            <div class="clearfix"></div>
+            <ul id="playlist" class="hidden">
+                <li song="BrunoMarsJustthewayyouare.mp3" cover="cover10.jpg" artist="Bruno Mars">Just the way you are.mp3</li>
+                <li song="Versace_on_the_floor.mp3" cover="cover2.jpg" artist="Bruno Mars"> Versace on the floor.mp3</li>
+                <li song="Bruno_Mars_-_Billionaire.mp3" cover="cover1.jpg" artist="Bruno Mars"> Billionaire.mp3</li>
+                <li song="Marry You.mp3" cover="cover3.jpg" artist="Bruno Mars"> Marry you.mp3</li>
+                <li song="grenade.mp3" cover="cover5.jpg" artist="Bruno Mars"> Grenade.mp3</li>
+                <li song="Treasure.mp3" cover="cover6.jpg" artist="Bruno Mars"> Treasure.mp3</li>
+                <li song="Count-On-Me.mp3" cover="cover7.jpg" artist="Bruno Mars"> Count on me.mp3</li>
+                <li song="runaway.mp3" cover="cover8.jpg" artist="Bruno Mars"> Runaway.mp3</li>
+                <li song="Thats What I Like.mp3" cover="cover9.jpg" artist="Bruno Mars"> That's what I Like.mp3</li>
+                <li song="Today My Life Begins.mp3" cover="cover4.jpg" artist="Bruno Mars"> Today my Life begins.mp3</li>
+
+            </ul>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
